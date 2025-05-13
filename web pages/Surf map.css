@@ -286,12 +286,18 @@
 }
 
 @media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
   .navdiv {
-    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .logo a {
-    font-size: 1.6rem;
+    font-size: 2rem; /* slightly larger for branding */
   }
 
   .navdiv ul li a {

@@ -285,15 +285,55 @@
 }
 
 @media (max-width: 480px) {
-  .navdiv {
-    padding: 1rem;
+  .navbar {
+    padding: 0.5rem 1rem;
   }
 
-  .logo a {
-    font-size: 1.6rem;
+  .navdiv {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .navdiv ul li a {
     font-size: 0.9rem;
+  }
+
+  .logo a {
+    font-size: 2rem; /* slightly larger for branding */
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .articles, .comments {
+    width: 100%;
+  }
+
+  .comments {
+    margin-top: 1rem;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .about-footer h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-footer p {
+    font-size: 0.95rem;
+  }
+
+  .footer-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .social-icons img {
+    width: 24px;
   }
 }
