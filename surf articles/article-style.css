@@ -175,3 +175,28 @@ body {
   background-color: #444;
   transform: scale(1.05);
 }
+
+
+.comments h3 {
+  margin-bottom: 1rem;
+}
+
+.comments textarea {
+  width: 100%;
+  height: 100px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.comments button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #60C1CC;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
