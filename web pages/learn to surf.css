@@ -56,7 +56,7 @@
   }
   
   ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Slight transparency */
+    background-color: rgba(0, 0, 0, 0.1); 
     color: #000000;
     transform: scale(1.05);
   }
@@ -94,8 +94,8 @@
   
   .centered-text {
     max-width: 800px;
-    margin: 2rem auto; /* centers the block */
-    text-align: left;   /* aligns the text to the left */
+    margin: 2rem auto; 
+    text-align: left;   
     padding: 0 1rem;
     font-size: 1.2rem;
     color: #000000;
@@ -198,7 +198,7 @@
     text-align: center;
   }
 
-  /* Responsive navbar layout */
+  
 @media (max-width: 1024px) {
   
   .navdiv {
@@ -207,7 +207,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {

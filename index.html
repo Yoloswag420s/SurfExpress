@@ -96,7 +96,7 @@
   
     function showSlide(index) {
       const totalSlides = slides.length;
-      currentIndex = (index + totalSlides) % totalSlides; // Loop
+      currentIndex = (index + totalSlides) % totalSlides; 
       slider.scrollTo({
         left: slider.clientWidth * currentIndex,
         behavior: 'smooth'
@@ -118,7 +118,7 @@
       });
     }
   
-    // Add click event to dots
+    
     dots.forEach((dot, idx) => {
       dot.addEventListener('click', (e) => {
         e.preventDefault();
@@ -126,7 +126,7 @@
       });
     });
   
-    // Track manual scrolling (optional, improves dot accuracy)
+    
     slider.addEventListener('scroll', () => {
       const newIndex = Math.round(slider.scrollLeft / slider.clientWidth);
       if (newIndex !== currentIndex) {
@@ -135,10 +135,10 @@
       }
     });
   
-    updateDots(); // Initial call
+    updateDots(); 
   </script>
 
-  <!-- ⭐ Gallery Section -->
+
   <section id="gallery" class="gallery">
     <img src="assets/surf 4.jpg" alt="Surf Image 4">
     <img src="assets/surf 5.jpg" alt="Surf Image 5">
@@ -146,7 +146,7 @@
   </section>
 
 
-  <!-- ⭐ Footer -->
+  
   <footer class="footer">
     <div class="footer-buttons">
       <button class="footer-btn" onclick="window.location.href='web pages/about.html'">About Us</button>

@@ -8,7 +8,7 @@
   src: url('../fonts/Inter-Bold.otf') format('opentype');
 }
 
-/* Reset & base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@
     background-color: #f9f9f9;
   }
   
-  /* Navbar styling */
+  
   .navbar {
     padding: 1rem 2rem;
     position: sticky;
@@ -63,7 +63,7 @@
   }
   
   ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Slight transparency */
+    background-color: rgba(0, 0, 0, 0.1); 
     color: #000000;
     transform: scale(1.05);
   }
@@ -195,7 +195,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {
@@ -227,7 +227,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {
@@ -264,7 +264,7 @@
   }
 
   .logo a {
-    font-size: 2rem; /* slightly larger for branding */
+    font-size: 2rem; 
   }
 
   .navdiv ul li a {

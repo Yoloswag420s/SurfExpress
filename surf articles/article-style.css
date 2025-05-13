@@ -57,7 +57,7 @@ body {
   }
   
   ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Slight transparency */
+    background-color: rgba(0, 0, 0, 0.1); 
     color: #000000;
     transform: scale(1.05);
   }
@@ -208,7 +208,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {
@@ -240,7 +240,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {
@@ -277,7 +277,7 @@ body {
   }
 
   .logo a {
-    font-size: 2rem; /* slightly larger for branding */
+    font-size: 2rem; 
   }
 
   .navdiv ul li a {

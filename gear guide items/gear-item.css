@@ -8,7 +8,7 @@
   src: url('fonts/Inter-Bold.otf') format('opentype');
 }
 
-/* Reset & base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@
   flex-direction: column;
 }
   
-  /* Navbar styling */
+  
   .navbar {
     padding: 1rem 2rem;
     position: sticky;
@@ -68,7 +68,7 @@
   }
   
   ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Slight transparency */
+    background-color: rgba(0, 0, 0, 0.1); 
     color: #000000;
     transform: scale(1.05);
   }
@@ -266,7 +266,7 @@ html, body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-direction: row-reverse; /* this moves logo to the right */
+  flex-direction: row-reverse; 
 }
   
   .navdiv {
@@ -293,27 +293,27 @@ html, body {
 
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column;  /* Stack the content vertically */
-    align-items: center;  /* Center everything */
-    text-align: center;  /* Ensure text is centered */
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center; 
   }
 
   .content-container img {
-    width: 80%;  /* Make the image responsive */
+    width: 80%;  
     height: auto;
-    max-width: 400px;  /* Restrict the image size */
-    margin-bottom: 1rem;  /* Add spacing below the image */
+    max-width: 400px;  
+    margin-bottom: 1rem;  
   }
 
   .text h1 {
-    font-size: 2rem;  /* Adjust the heading size */
+    font-size: 2rem;  
     margin-bottom: 1rem;
   }
 
   .text h2 {
     font-size: 1.5rem;
     color: #333;
-    margin-top: 1rem;  /* Space between heading and paragraph */
+    margin-top: 1rem;  
   }
 
   .text p {
@@ -335,7 +335,7 @@ html, body {
   }
 
   .logo a {
-    font-size: 2rem; /* slightly larger for branding */
+    font-size: 2rem; 
   }
 
   .navdiv ul li a {
