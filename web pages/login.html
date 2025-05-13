@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="assets/">
+  <style>
+    /* Apply background image */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('../assets/surf 7.png'); /* Replace with your high-res image URL */
+      background-size: cover; /* Make the image cover the entire screen */
+      background-position: center center; /* Center the background image */
+      background-repeat: no-repeat; /* Prevent background from repeating */
+      image-rendering: -webkit-optimize-contrast; /* Image rendering optimization */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: rgba(242, 242, 242, 0.9); /* Slight grey background with transparency */
+      padding: 3rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+      width: 300px;
+      height: 400px; /* Taller box */
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-style: italic; /* Italicized text */
+    }
+
+    .container input {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .container button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #60C1CC;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .back-btn {
+      width: 100%;
+      padding: 0.75rem;
+      background: #ccc;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .back-btn:hover {
+      background: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Login</h2> <!-- Italicized Login -->
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button onclick="window.location.href='login succesful.html'">Login</button>
+    <button class="back-btn" onclick="window.location.href='index.html'">← Back</button>
+  </div>
+
+</body>
+</html>
