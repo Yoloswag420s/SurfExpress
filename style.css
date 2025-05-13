@@ -108,6 +108,10 @@ body {
   scroll-snap-align: start;
 }
 
+.picture {
+  filter: brightness(1.0);
+}
+
 .slider::-webkit-scrollbar {
   display: none;
 }
@@ -123,7 +127,6 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
   z-index: 2;
   pointer-events: none;
 }
@@ -211,6 +214,42 @@ body {
   transform: scale(1.05);
   background-color: #4db1be;
 }
+
+.slide-text-overlay {
+  position: absolute;
+  top: 15%; /* Adjust as needed depending on your navbar height */
+  left: 10%;
+  display: flex;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+
+
+.vertical-line {
+  width: 2px;
+  height: 120px;
+  background: #1e90ff; /* Small blue vertical line */
+  margin-right: 15px;
+  margin-top: 7px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+.slide-text-content h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.slide-text-content p {
+  margin: 5px 0 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+}
+
 
 .gallery {
   padding: 50px;
@@ -311,6 +350,121 @@ html, body {
   padding: 0;
   height: 100%;
   overflow-x: hidden;
+}
+
+/* ---------- Responsive Adjustments ---------- */
+@media (max-width: 1024px) {
+  .navdiv ul {
+    gap: 2rem;
+  }
+
+  .slide-buttons {
+    flex-direction: column;
+    top: 80%;
+    gap: 1rem;
+  }
+
+  .action-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .gallery {
+    gap: 40px;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navdiv {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+   .navdiv ul li a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .slide-buttons {
+    flex-direction: column;
+    top: 75%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .about-footer h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-footer p {
+    font-size: 0.95rem;
+  }
+
+  .footer-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .slider-controls .arrow {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    font-size: 1.6rem;
+  }
+
+  .navdiv ul {
+    gap: 0.5rem;
+  }
+
+  .action-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .slider-controls .arrow {
+    font-size: 1.2rem;
+  }
+
+  .gallery {
+    gap: 20px;
+  }
+
+  .about {
+    padding: 30px 10px;
+  }
+
+  .about-footer p {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
 }
 
 

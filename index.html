@@ -30,26 +30,53 @@
         <button class="arrow right" onclick="nextSlide()">&#10095;</button>
       </div>
   
+      <div class="slide-text-overlay">
+          <div class="vertical-line"></div>
+          <div class="slide-text-content">
+          <h1>A Surf DataBase</h1>
+          <p>Worth Surfing</p>
+          </div>
+          </div>
+      
       <div class="slider" id="slider">
+        
+        
         <div class="slide">
-          <img src="assets/1.png" alt="">
+  
+          <picture>
+          <source srcset="assets/mobile1.jpg" media="(max-width: 767px)">
+          <source srcset="assets/mobile1.jpg" media="(max-width: 1024px)">
+          <img src="assets/1.png" class="picture" alt="Surf Image 1">
+          </picture>
+
+        
+          
           <div class="slide-buttons">
-            <a href="web pages/signup.html" class="action-btn">Sign In</a>
-            <a href="web pages/login.html" class="action-btn">Login</a>
+             <a href="web pages/signup.html" class="action-btn">Sign In</a>
+             <a href="web pages/login.html" class="action-btn">Login</a>
+           </div>
+         </div>
+
+        <div class="slide">
+          
+          <picture>
+          <source srcset="assets/mobile2.png" media="(max-width: 767px)">
+          <source srcset="assets/mobile2.png" media="(max-width: 1024px)">
+          <img src="assets/2.jpg" class="picture" alt="">
+          </picture>
+          <div class="slide-buttons">
+            <a href="web pages/Features.html" class="action-btn">Surf Articles</a>
           </div>
         </div>
+        
         <div class="slide">
-          <img src="assets/2.jpg" alt="">
+          <picture>
+          <source srcset="assets/mobile3.jpg" media="(max-width: 767px)">
+          <source srcset="assets/mobile3.jpg" media="(max-width: 1024px)">
+          <img src="assets/3.png" class="picture"  alt="">
+          </picture>
           <div class="slide-buttons">
-            <a href="web pages/signup.html" class="action-btn">Sign In</a>
-            <a href="web pages/login.html" class="action-btn">Login</a>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="assets/3.jpg" alt="">
-          <div class="slide-buttons">
-            <a href="web pages/signup.html" class="action-btn">Sign In</a>
-            <a href="web pages/login.html" class="action-btn">Login</a>
+            <a href="web pages/Learn to surf.html" class="action-btn">Learn to Surf</a>
           </div>
         </div>
       </div>

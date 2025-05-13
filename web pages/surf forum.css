@@ -213,3 +213,82 @@
 .page-content {
   flex: 1;
 }
+
+@media (max-width: 1024px) {
+  
+  .navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row-reverse; /* this moves logo to the right */
+}
+  
+  .navdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navdiv ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .navdiv ul li {
+    width: auto;
+  }
+
+  .navdiv ul li a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row-reverse; /* this moves logo to the right */
+}
+  
+  .navdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navdiv ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .navdiv ul li {
+    width: auto;
+  }
+
+  .navdiv ul li a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navdiv {
+    padding: 1rem;
+  }
+
+  .logo a {
+    font-size: 1.6rem;
+  }
+
+  .navdiv ul li a {
+    font-size: 0.9rem;
+  }
+}
