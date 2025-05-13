@@ -196,6 +196,7 @@ body {
   z-index: 3;
   display: flex;
   gap: 1.5rem;
+  text-decoration: none;
 }
 
 .action-btn {
@@ -208,6 +209,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s, background-color 0.3s;
+  text-decoration: none;
 }
 
 .action-btn:hover {
@@ -405,6 +407,23 @@ html, body {
     font-size: 1rem;
     padding: 0.5rem;
   }
+  
+ 
+  .slider-controls .arrow {
+  font-size: 1.2rem;         /* Smaller arrow symbol */
+    padding: 0.4rem 0.6rem;    /* Smaller button size */
+    width: 40px;               /* Optional: fixed width */
+    height: 40px;              /* Optional: fixed height */
+    top: 45%;
+  }
+
+  .slider-controls .left {
+    left: 0.5rem; /* move closer to edge */
+  }
+
+  .slider-controls .right {
+    right: 0.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -426,6 +445,8 @@ html, body {
     font-size: 0.9rem;
   }
 }
+
+
 
 
 
